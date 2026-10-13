@@ -44,3 +44,21 @@ try {
 Criterio de éxito: B detecta que la aprobación anterior no cubre el auxiliar actual y exige nueva revisión de todos los archivos y de la prueba afectada. A deja documentada la ausencia del control explícito. Si el Juez no observa una mejora en la evaluación A/B, devuelve la propuesta. El cálculo de huellas por sí solo no demuestra mejora de conducta.
 
 Estado de esta prueba: diseñada, pendiente de ejecución y evaluación independiente por el Juez. El Bibliotecario no aprueba su propio trabajo.
+
+## Vuelta 2
+
+Arreglos del veredicto DEVUELTO de la vuelta 1, aplicados punto por punto:
+
+1. **Comando, huellas y prueba:** se conserva el lanzamiento del Juez en solo lectura. El Bibliotecario u otro operador con autorización previa calcula las huellas y entrega comando, salida y archivos exactos; el Juez coteja la evidencia por lectura y no aprueba si no puede vincularla al contenido revisado. La prueba A/B documental se evalúa leyendo, sin escribir ni ejecutar. Cualquier ejecución necesaria corresponde a un operador previamente autorizado y se documenta para el Juez; la skill no concede esa autorización. Se distingue el control documental de una prueba de conducta real.
+2. **BLOQUEADO:** añadido al formato, con el impedimento que lo justifica y la decisión de Verset; no equivale a aprobación ni concede permisos.
+3. **Rondas:** el máximo de tres vueltas cubre código, documentos, síntesis y propuestas de skills. Se conserva la excepción de una vuelta para investigación, incluidos sus documentos y síntesis.
+4. **Descripción:** recuperadas las expresiones «hacer o encargar» y «aprobar o devolver», conservando el alcance de revisión independiente.
+5. **Nueva presentación:** borrador corregido para revisión independiente, vuelta 2. No se instala, reparte ni aprueba por el Bibliotecario.
+
+Comprobación auxiliar ejecutada por el Bibliotecario en Forja, solo en memoria, con el bloque PowerShell de esta propuesta. Resultado observado: `Contenido cambiado: requiere nueva revision`. Esta comprobación solo distingue los contenidos; la evaluación A/B independiente por el Juez sigue pendiente.
+
+Huella nueva del archivo que se propone repartir, calculada después de los arreglos con `Get-FileHash -LiteralPath 'propuestas\2026-10-13_2355-juez-skills\SKILL.md' -Algorithm SHA256`:
+
+- `SKILL.md`: `707762e98524e0f7e066f4de625e8cfbb8608dc5ca7aee61238ba2b0ea496356`
+
+Esta huella es aportada por el Bibliotecario para su cotejo por el Juez; no constituye aprobación.

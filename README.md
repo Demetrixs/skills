@@ -9,7 +9,7 @@ Fuente oficial de las skills de los agentes (Manual del Fundador, sección 17). 
 |---|---|---|---|---|
 | forja-powershell | v1 | Claude, 13/10/2026 | UTF-16 con `>`, BOM, S4U, pegado en RDP | Verset, 13/10/2026 |
 | codex-constructor-windows | v1 | Claude, 13/10/2026 | Codex no puede hacer commit en Windows; S4U rompe el sandbox | Verset, 13/10/2026 |
-| juez-revision | v1 | Claude, 13/10/2026 | Rondas de Juez del Lote 1 (login con Tasks nulo) | Verset, 13/10/2026 |
+| juez-revision | v2 (sha256 707762e9…6356) | Bibliotecario (Codex), 13/10/2026 | Revisar propuestas de skills con huellas y version exacta (constitucion v1, T9) | Juez Claude vuelta 2 + Verset, 14/10/2026 |
 | encargo-oficina-investigacion | v1 | Claude, 13/10/2026 | Coordinador atascado (jq); modos rápido/completo | Verset, 13/10/2026 |
 | buzon-aprobar-tarea | v1 | Claude, 13/10/2026 | DOC-002 bloqueada, DOC-003 completada | Verset, 13/10/2026 |
 | montar-source-conquer-forja | v1 | Claude, 13/10/2026 | Montaje Redux y auditoría World Conquer V2 | Verset, 13/10/2026 |
